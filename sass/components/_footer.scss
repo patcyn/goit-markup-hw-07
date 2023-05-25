@@ -1,26 +1,36 @@
 .footer {
   background-color: $backgroundColorFooter;
   width: 100%;
-  &__logo {
+  &__table {
     display: flex;
     column-gap: 70px;
   }
-  &__logo--white {
-    color: $whiteColor;
+  &__logo {
+    color: #2196f3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 1.18;
+    text-decoration: none;
+    padding-right: 93px;
+
+    &--white {
+      color: $whiteColor;
+    }
   }
   &__container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  &__address {
-    color: $whiteColor;
-    line-height: 1.7;
-    text-decoration: none;
-    font-style: normal;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 9px;
-  }
+  // &__address {
+  //   color: $whiteColor;
+  //   line-height: 1.7;
+  //   text-decoration: none;
+  //   font-style: normal;
+  //   margin-right: auto;
+  //   padding-top: 20px;
+  //   padding-bottom: 9px;
+  // }
   &__box {
     margin-left: 70px;
   }
@@ -85,4 +95,11 @@
     padding-left: 16px;
     color: $colorHeadingWhite;
   }
+}
+.address {
+   display: flex;
+  flex-flow: column;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  text-decoration: none;
 }
