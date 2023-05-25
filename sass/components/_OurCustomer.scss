@@ -1,0 +1,28 @@
+.section-our-customer {
+  background-color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+.our-customer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  &__icon {
+    display: flex;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    fill: #afb1b8;
+    padding: 17.71px 32px 14.25px 32px;
+    row-gap: 30px;
+  }
+  &__icon:hover,
+  &__icon:focus {
+    outline: none !important;
+    fill: #2196f3;
+    border: solid 1px #2196f3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

@@ -1,0 +1,67 @@
+.footer {
+  background-color: #2f303a;
+  width: 100%;
+  &__logo {
+    display: flex;
+    column-gap: 70px;
+  }
+  &__logo--white {
+    color: #ffffff;
+  }
+  &__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &__address {
+    color: #ffffff;
+    line-height: 1.7;
+    text-decoration: none;
+    font-style: normal;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 9px;
+  }
+  &__box {
+    margin-left: 70px;
+  }
+  &__heading {
+    color: #eeeeee;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+.newsletter-icon {
+  fill: #ffffff;
+  position: absolute;
+  right: 28px;
+  top: 13px;
+}
+.newsletter-button {
+  position: absolute;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding-right: 42px;
+}
+.newsletter-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: rgba(47, 48, 58, 1);
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  color: #eeeeee;
+}
