@@ -17,6 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <header>
@@ -70,7 +71,7 @@
         <button class="slogan__button" type="button" data-modal-open>
           Zamów usługę
         </button>
-        <div class="backdrop backdrop-section" data-modal>
+        <div class="modal backdrop-section" data-modal>
           <div class="backdrop-section__modal">
             <button
               type="button"
@@ -84,65 +85,65 @@
             </h3>
             <form>
               <ul>
-                <li class="backdrop-form">
-                  <label class="backdrop-form__label">Imię </label
-                  ><svg class="backdrop-form__icon" width="12" height="12">
+                <li class="form">
+                  <label class="form__label">Imię </label
+                  ><svg class="form__icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-Vector"></use>
                   </svg>
                   <input
-                    class="backdrop-form__input"
+                    class="form__input"
                     type="text"
                     name="name"
                     required
                   />
                 </li>
-                <li class="backdrop-form">
-                  <label class="backdrop-form__label"> Telefon</label
-                  ><svg class="backdrop-form__icon" width="13" height="13">
+                <li class="form">
+                  <label class="form__label"> Telefon</label
+                  ><svg class="form__icon" width="13" height="13">
                     <use href="./images/icons.svg#icon-Vector-1"></use>
                   </svg>
                   <input
-                    class="backdrop-form__input"
+                    class="form__input"
                     type="tel"
                     name="phone-number"
                     required
                   />
                 </li>
-                <li class="backdrop-form">
-                  <label class="backdrop-form__label"> Email</label
-                  ><svg class="backdrop-form__icon" width="15" height="12">
+                <li class="form">
+                  <label class="form__label"> Email</label
+                  ><svg class="form__icon" width="15" height="12">
                     <use href="./images/icons.svg#icon-Vector-2"></use>
                   </svg>
                   <input
-                    class="backdrop-form__input"
+                    class="form__input"
                     type="email"
                     name="email"
                     required
                   />
                 </li>
-                <li class="backdrop-form">
-                  <label class="backdrop-form__label"> Komentarz</label>
+                <li class="form">
+                  <label class="form__label"> Komentarz</label>
                   <textarea
-                    class="backdrop-form__textarea"
+                    class="form__textarea"
                     name="comment"
                     rows="8"
                     placeholder="Wprowadź tekst"
                   ></textarea>
                 </li>
-                <li class="backdrop-form--inline">
+                <li class="form__inline">
                   <label for="check">
                     <input
-                      class="backdrop-form--inline-check"
+                      class="form__checked"
                       id="check"
                       type="checkbox"
                       name="privacy-policy"
                     />
                     Oświadczam iż akceptuję
-                    <a class="backdrop-form__policy" href="#">Regulamin</a> i
-                    <a class="backdrop-form__policy" href="#"
+                    <a class="form__policy" href="#">Regulamin</a> i
+                    <a class="form__policy" href="#"
                       >Politykę prywatności</a
                     ><svg
-                      class="backdrop-form__checkbox"
+                      class="form__checkbox"
                       width="16"
                       height="15"
                     >
@@ -150,8 +151,8 @@
                     </svg>
                   </label>
                 </li>
-                <li class="backdrop-form__check">
-                  <button class="backdrop-form__button" type="submit">
+                <li class="form__check">
+                  <button class="form__button" type="submit">
                     Wyślij
                   </button>
                 </li>
@@ -524,7 +525,7 @@
             </div>
           </li>
           <li>
-            <h3 class="footer__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+            <h3 class="footer__heading newsletter">ZAPISZ SIĘ DO NEWSLETTERA</h3>
             <form name="newsletter" />
             <input
               class="newsletter__input"

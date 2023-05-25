@@ -1,5 +1,5 @@
 .section-our-customer {
-  background-color: white;
+  background-color: $whiteColor;
   text-align: center;
   justify-content: space-between;
 }
@@ -9,19 +9,19 @@
   justify-content: center;
   &__icon {
     display: flex;
-    border: 1px solid #afb1b8;
+    border: 1px solid $borderIconCustomer;
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    fill: #afb1b8;
+    fill: $borderIconCustomer;
     padding: 17.71px 32px 14.25px 32px;
     row-gap: 30px;
   }
   &__icon:hover,
   &__icon:focus {
     outline: none !important;
-    fill: #2196f3;
-    border: solid 1px #2196f3;
+    fill: $blueColorPointe;
+    border: solid 1px $blueColorPointe;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }

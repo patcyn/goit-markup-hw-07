@@ -360,7 +360,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 } */
-.icon__box {
+/* .icon__box {
   display: flex;
   border-radius: 50%;
   width: 44px;
@@ -369,8 +369,8 @@ header {
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   fill: #eeeeee;
-}
-.icon__box:hover,
+} */
+/* .icon__box:hover,
 .icon__box:focus {
   outline: none !important;
   fill: #ffffff;
@@ -381,7 +381,7 @@ header {
 .icon__box {
   display: flex;
   justify-content: center;
-}
+} */
 /* .address {
   display: flex;
   flex-flow: column;
@@ -546,7 +546,7 @@ header {
   margin-top: 40px;
   padding-bottom: 12px;
 } */
-.backdrop-form__input {
+/* .form__input {
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -554,8 +554,8 @@ header {
   height: 40px;
   margin-bottom: 10px;
   padding-left: 42px;
-}
-.backdrop-form__label {
+} */
+/* .form__label {
   display: flex;
   font-weight: 400;
   font-size: 12px;
@@ -566,16 +566,16 @@ header {
   color: #757575;
   margin-left: 40px;
   padding-bottom: 4px;
-}
+} */
 
-.backdrop-form__input:hover,
-.backdrop-form__input:focus {
+/* .form__input:hover,
+.form__input:focus {
   outline: none;
   border: solid 1px #2196f3;
   cursor: pointer;
   transition-duration: 250ms;
-}
-.backdrop-form__button {
+} */
+/* .form__button {
   position: relative;
   background-color: #2196f3;
   color: #ffffff;
@@ -590,11 +590,11 @@ header {
   width: 200px;
   height: 50px;
   bottom: 40px;
-}
-.backdrop-form__check {
+} */
+/* .form__check {
   margin-top: 74px;
-}
-.backdrop-form--inline-check {
+} */
+/* .form--inline-check {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
@@ -604,8 +604,8 @@ header {
   height: 15px;
   cursor: pointer;
   visibility: hidden;
-}
-.backdrop-form--inline-check::before {
+} */
+/* .form--inline-checked::before {
   content: "";
   border: 1px solid;
   border-radius: 3px;
@@ -613,53 +613,53 @@ header {
   height: 15px;
   position: absolute;
   visibility: visible;
-}
-.backdrop-form__policy {
+} */
+/* .form__policy {
   color: #2196f3;
-}
-.backdrop-form__icon {
+} */
+/* .form__icon {
   position: absolute;
   margin-left: 15px;
   margin-top: 14px;
-}
-.backdrop-form:hover,
-.backdrop-form:focus {
+} */
+/* .form:hover,
+.form:focus {
   fill: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* .newsletter-icon {
   fill: #ffffff;
   position: absolute;
   right: 28px;
   top: 13px;
 } */
-.backdrop-form__textarea {
+/* .form__textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 448px;
   height: 120px;
   padding: 12px 16px;
-}
-.backdrop-form__textarea:hover,
-.backdrop-form__textarea:focus {
+} */
+/* .form__textarea:hover,
+.form__textarea:focus {
   outline: none;
   border: solid 1px #2196f3;
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.backdrop-form__checkbox {
+} */
+/* .form__checkbox {
   position: absolute;
   right: 454.5px;
   top: 425.5px;
   visibility: hidden;
-}
-.backdrop-form--inline-check:checked ~ .backdrop-form__checkbox {
+} */
+/* .form--inline-check:checked ~ .form__checkbox {
   visibility: visible;
-}
+} */
 
-.backdrop-form--inline {
+/* .form--inline {
   font-size: 14px;
   line-height: 24px;
   color: #757575;
   margin-top: 20px;
-}
+} */
