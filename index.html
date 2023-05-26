@@ -72,7 +72,7 @@
           Zamów usługę
         </button>
         <div class="modal backdrop-section" data-modal>
-          <div class="backdrop-section__modal">
+          <div class="backdrop-section__modal is-hidden">
             <button
               type="button"
               class="backdrop-section__close-btn"
@@ -90,12 +90,7 @@
                   ><svg class="form__icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-Vector"></use>
                   </svg>
-                  <input
-                    class="form__input"
-                    type="text"
-                    name="name"
-                    required
-                  />
+                  <input class="form__input" type="text" name="name" required />
                 </li>
                 <li class="form">
                   <label class="form__label"> Telefon</label
@@ -140,21 +135,14 @@
                     />
                     Oświadczam iż akceptuję
                     <a class="form__policy" href="#">Regulamin</a> i
-                    <a class="form__policy" href="#"
-                      >Politykę prywatności</a
-                    ><svg
-                      class="form__checkbox"
-                      width="16"
-                      height="15"
-                    >
+                    <a class="form__policy" href="#">Politykę prywatności</a
+                    ><svg class="form__checkbox" width="16" height="15">
                       <use href="./images/icons.svg#icon-icon-check"></use>
                     </svg>
                   </label>
                 </li>
                 <li class="form__check">
-                  <button class="form__button" type="submit">
-                    Wyślij
-                  </button>
+                  <button class="form__button" type="submit">Wyślij</button>
                 </li>
               </ul>
             </form>
@@ -490,15 +478,17 @@
       <section class="container footer__container">
         <ul class="footer__table">
           <li>
-            <a class="footer__logo">Web<span class="footer__logo--white">Studio</span></a>
+            <a class="footer__logo"
+              >Web<span class="footer__logo--white">Studio</span></a
+            >
             <address class="footer__address">
               m.Warszawa, Aleje Jerozolimskie 21
             </address>
-            <div class="address">
-              <a class="address__contact" href="mailto:info@example.com"
+            <div class="footer__links">
+              <a class="footer__contact" href="mailto:info@example.com"
                 >info@example.com</a
               >
-              <a class="address__contact" href="tel+48111111111"
+              <a class="footer__contact" href="tel+48111111111"
                 >+48 111 111 111</a
               >
             </div>
@@ -525,7 +515,9 @@
             </div>
           </li>
           <li>
-            <h3 class="footer__heading newsletter">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+            <h3 class="footer__heading newsletter">
+              ZAPISZ SIĘ DO NEWSLETTERA
+            </h3>
             <form name="newsletter" />
             <input
               class="newsletter__input"

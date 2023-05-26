@@ -58,6 +58,11 @@
     padding-bottom: 12px;
   }
 }
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
 .is-hidden,
 .backdrop-section__modal {
   transform: scale(0);
@@ -140,33 +145,36 @@
       position: absolute;
       visibility: visible;
     }
- &:checked ~ .form__checkbox {
-  visibility: visible;
-} }
-&__policy {
-  color: $blueColorPointer;
-}&__checkbox {
-  position: absolute;
-  right: 454.5px;
-  top: 425.5px;
-  visibility: hidden;
-}&__check {
-  margin-top: 74px;
-}
-&__button {
-  position: relative;
-  background-color: $blueColorPointer;
-  color: $whiteColor;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  padding: 10px 76px;
-  font-weight: 700;
-  width: 200px;
-  height: 50px;
-  bottom: 40px;
-}
+    &:checked ~ .form__checkbox {
+      visibility: visible;
+    }
+  }
+  &__policy {
+    color: $blueColorPointer;
+  }
+  &__checkbox {
+    position: absolute;
+    right: 454.5px;
+    top: 425.5px;
+    visibility: hidden;
+  }
+  &__check {
+    margin-top: 74px;
+  }
+  &__button {
+    position: relative;
+    background-color: $blueColorPointer;
+    color: $whiteColor;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 76px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    bottom: 40px;
+  }
 }
