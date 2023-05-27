@@ -59,10 +59,10 @@
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-}
-.is-hidden .backdrop-section {
+
+&backdrop-section {
   transform: scale(0);
-}
+}}
 .form {
   fill: $blueColorPointer;
   color: $blueColorPointer;
