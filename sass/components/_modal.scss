@@ -65,9 +65,11 @@
   }
 }
 .form {
-  fill: $blueColorPointer;
   // transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  &:hover,
+  &:focus {
+    fill: $blueColorPointer;
+  }
   &__label {
     display: flex;
     font-weight: 400;
@@ -85,16 +87,12 @@
     margin-left: 15px;
     margin-top: 14px;
     fill: $blackColor;
-    &:hover,
-    &:focus {
-      fill: $blueColorPointer;
-      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    // &:hover,
+    // &:focus {
+    //   fill: $blueColorPointer;
+    //   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // }
   }
-  // &__input:hover,
-  // &:focus ~ &__icon {
-  //   fill: $blueColorPointer;
-  // }
 
   &__input {
     outline: none;

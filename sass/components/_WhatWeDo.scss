@@ -1,6 +1,5 @@
 .what-we-do {
-  text-align: center;
-  background-color: $whiteColor;
+  display: none;
 }
 .what-we-do-section {
   display: flex;
@@ -18,5 +17,14 @@
     bottom: 0;
     padding: 27px 90px;
     text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+  .what-we-do {
+    display: flex;
+    text-align: center;
+  background-color: $whiteColor;
   }
 }

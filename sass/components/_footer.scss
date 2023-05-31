@@ -1,18 +1,27 @@
 .footer {
   background-color: $backgroundColorFooter;
   width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+
   &__table {
-    display: flex;
-    column-gap: 70px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+    // column-gap: 70px;
   }
   &__logo {
-    color: #2196f3;
+    color: $blueColorPointer;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     line-height: 1.18;
     text-decoration: none;
     padding-right: 93px;
+    display: flex;
+    justify-content: center;
 
     &--white {
       color: $whiteColor;
@@ -42,6 +51,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 60px;
   }
   &__links {
     display: flex;
@@ -56,12 +66,15 @@
 .icon {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  text-align: center;
   &__box {
     display: flex;
+    justify-content: center;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    justify-content: center;
+
     align-items: center;
     background: $backgroundColorIcon;
     fill: $colorHeadingWhite;
@@ -85,7 +98,8 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+display: flex;
+    justify-content: center;
   &__icon {
     fill: $whiteColor;
     position: absolute;
@@ -116,5 +130,28 @@
     height: 50px;
     padding-left: 16px;
     color: $colorHeadingWhite;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .footer__table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__table {
+    display: flex;
+    gap: 70px;
+  }
+}
+@media not (min-width: 768px) {
+  .newsletter__input {
+    display: block;
+    margin: 0 auto;
+  }
+  .newsletter__button {
+    margin-top: 30px;
   }
 }
